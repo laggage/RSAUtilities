@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RsaUtilities", "RSAUtilities\RsaUtilities.csproj", "{6A499D28-C0A5-4ACE-A327-447D9D052F0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RSAUtilities", "RSAUtilities\RSAUtilities.csproj", "{6A499D28-C0A5-4ACE-A327-447D9D052F0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSAUtilities.Test", "RSAUtilities.Test\RSAUtilities.Test.csproj", "{B7EFB014-AC3C-428C-84E5-C71EC72ECBEE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,9 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{6A499D28-C0A5-4ACE-A327-447D9D052F0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -30,5 +29,23 @@ Global
 		{6A499D28-C0A5-4ACE-A327-447D9D052F0C}.Release|x64.Build.0 = Release|Any CPU
 		{6A499D28-C0A5-4ACE-A327-447D9D052F0C}.Release|x86.ActiveCfg = Release|Any CPU
 		{6A499D28-C0A5-4ACE-A327-447D9D052F0C}.Release|x86.Build.0 = Release|Any CPU
+		{B7EFB014-AC3C-428C-84E5-C71EC72ECBEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7EFB014-AC3C-428C-84E5-C71EC72ECBEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7EFB014-AC3C-428C-84E5-C71EC72ECBEE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B7EFB014-AC3C-428C-84E5-C71EC72ECBEE}.Debug|x64.Build.0 = Debug|Any CPU
+		{B7EFB014-AC3C-428C-84E5-C71EC72ECBEE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B7EFB014-AC3C-428C-84E5-C71EC72ECBEE}.Debug|x86.Build.0 = Debug|Any CPU
+		{B7EFB014-AC3C-428C-84E5-C71EC72ECBEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7EFB014-AC3C-428C-84E5-C71EC72ECBEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7EFB014-AC3C-428C-84E5-C71EC72ECBEE}.Release|x64.ActiveCfg = Release|Any CPU
+		{B7EFB014-AC3C-428C-84E5-C71EC72ECBEE}.Release|x64.Build.0 = Release|Any CPU
+		{B7EFB014-AC3C-428C-84E5-C71EC72ECBEE}.Release|x86.ActiveCfg = Release|Any CPU
+		{B7EFB014-AC3C-428C-84E5-C71EC72ECBEE}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E13994A0-2B4D-4515-A2E4-145FAA01B609}
 	EndGlobalSection
 EndGlobal
