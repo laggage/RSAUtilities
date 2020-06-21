@@ -5,7 +5,7 @@ using System.IO;
 
 namespace RSAUtilities.Test
 {
-    public class UnitTest1
+    public class RSAExtensionsTests
     {
         [Fact]
         public void LoadPrivateKeyFromFileTest()
